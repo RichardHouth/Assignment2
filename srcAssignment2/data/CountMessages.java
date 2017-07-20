@@ -10,7 +10,7 @@ import Assignment2.model.Tweet;
  */
 public class CountMessages implements Visitor {
     
-     private int count;
+     private int count = 0;
 
     @Override
     public void visit(User user) {
